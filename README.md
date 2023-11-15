@@ -1,4 +1,4 @@
-# Engeto projekt PowerBI
+# Engeto projekt PowerBI" Základní ekonomické a demografické ukazatele jednotek NUTS 1, NUTS 2 a NUTS 3 v ČR
 
 - *Závěrečný projekt Engeto datové analýzy*
 - **PowerBi** a **Excel**
@@ -7,14 +7,12 @@
 
 
  # Obsah
-- [Engeto projekt PowerBI](#engeto-projekt-powerbi)
+- [Engeto projekt PowerBI" Základní ekonomické a demografické ukazatele jednotek NUTS 1, NUTS 2 a NUTS 3 v ČR](#engeto-projekt-powerbi-základní-ekonomické-a-demografické-ukazatele-jednotek-nuts-1-nuts-2-a-nuts-3-v-čr)
 - [Obsah](#obsah)
   - [1. Zadání projektu](#1-zadání-projektu)
     - [1.1 Kritéria](#11-kritéria)
-  - [2. Výběr oblasti projektu, definice otázek a validace zdrojových dat](#2-výběr-oblasti-projektu-definice-otázek-a-validace-zdrojových-dat)
-    - [2.1 Oblast projektu](#21-oblast-projektu)
-    - [2.2 Definice otázek](#22-definice-otázek)
-    - [2.2 Zdrojová data a jejich validace](#22-zdrojová-data-a-jejich-validace)
+  - [2. Zdrojová data](#2-zdrojová-data)
+    - [2.1 Hierarchie NUTS pro ČR](#21-hierarchie-nuts-pro-čr)
   - [3. Úprava zdrojových dat v excelu.](#3-úprava-zdrojových-dat-v-excelu)
 		
   
@@ -33,8 +31,7 @@ Tvým úkolem tedy je vizualizovat tebou zvolený dataset podle níže zadaných
 - Použití datové hierarchie o alespoň dvou úrovních
 - Vytvoření alespoň 1 measure (metrika/míra) a 1 kalkulovaného sloupce
 - Grafická úprava použitých vizuálů a vizuálně přívětivý výsledný report
-## 2. Výběr oblasti projektu, definice otázek a validace zdrojových dat
-### 2.1 Oblast projektu
-### 2.2 Definice otázek
-### 2.2 Zdrojová data a jejich validace
+## 2. Zdrojová data
+### 2.1 Hierarchie NUTS pro ČR
+Z pohledu rozdělení NUTS je celá Česká republika kategorizována jako NUTS1. NUTS2 jsou jednotlivé regiony soudržnosti a NUTS3 jsou jednotlivé kraje české republiky.Tato hierarchie je dostupná na [**webu**](https://portal.uur.cz/spravni-usporadani-cr-organy-uzemniho-planovani/nuts.asp). Z tohoto webu byla importována data do excelu a následně uložena do formátu CSV v souboru [NUTS_hierarchie]().
 ## 3. Úprava zdrojových dat v excelu.
