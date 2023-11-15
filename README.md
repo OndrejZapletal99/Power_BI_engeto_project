@@ -16,7 +16,10 @@
     - [2.2 Demografické ukazatele jednotlivých krajů](#22-demografické-ukazatele-jednotlivých-krajů)
     - [2.3 Ekonomické ukazatele jednotlivých krajů](#23-ekonomické-ukazatele-jednotlivých-krajů)
     - [2.4 Tabulka se sledovanými roky](#24-tabulka-se-sledovanými-roky)
-  - [3. Úprava zdrojových dat v excelu.](#3-úprava-zdrojových-dat-v-excelu)
+  - [3. PowerBI](#3-powerbi)
+    - [3.1 Změna datových typů a nastení formátu hodnot](#31-změna-datových-typů-a-nastení-formátu-hodnot)
+    - [3.2 Vytvoření hierarchie pro NUTS](#32-vytvoření-hierarchie-pro-nuts)
+    - [3.3 Relační model](#33-relační-model)
 		
   
 ## 1. Zadání projektu
@@ -46,9 +49,19 @@ Na [**webu**](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fww
 ### 2.3 Ekonomické ukazatele jednotlivých krajů
 Na [**webu**](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.czso.cz%2Fstaticke%2Fgapminder%2Fporovnani_kraju_vse%2FXLS%2Fukazatele_kraje_ekon.xlsx&wdOrigin=BROWSELINK) Českého statistického úřadu jsou veřejně dustupná data o ekonomickýcg ukazatelích jednotlivých krajů České republiky. Z veřejne dostupného excel soubouru byla vyextrahována data ohledně HDP a čistého disponibilního důchodu domácností v ČR mezi roky 2000 a 2021. Tato data byla uložena ve dvou CSV souborech, a to [Kraj_hdp](https://github.com/OndrejZapletal99/Power_BI_engeto_project/blob/main/Kraj_HDP.csv) a [Kraj_cddd](https://github.com/OndrejZapletal99/Power_BI_engeto_project/blob/main/Kraj_cddd.csv).
 - **HDP na jednoho obyvatele** - regionální HDP na 1 obyvatele (Kč, běžné ceny)
-- **Čistý disponibilní důchod domácností na 1 obyvatele)** - Čistý disponibilní důchod domácností na 1 obyvatele (Kč, běžné ceny)
+- **Čistý disponibilní důchod domácností na 1 obyvatele(CDDD)** - Čistý disponibilní důchod domácností na 1 obyvatele (Kč, běžné ceny)
 >Tyto textové soubor byly importovány do PowerBI a byla nutná ruční úprava v PowerQUery, ke byl nastaven první řádek jako zálhaví a také byly jednotlivé sloupce transponovány na řádky, abychom vytvořili "dlouhá" a ne "široká" data.
 ### 2.4 Tabulka se sledovanými roky
 Pro lepší práci s daty a byla vytvořena tabulka pro sledované roky v rozmezí od roku 2000 do roku 2021. Tato tabulka byla uloženena jako CSV soubor [Rok](https://github.com/OndrejZapletal99/Power_BI_engeto_project/blob/main/Rok.csv).
 >Tento textový soubor byl importován do PowerBI a byla nutná ruční úprava v PowerQUery, ke byl nastaven první řádek jako zálhaví a takové změněný datový typ na *text*.
-## 3. Úprava zdrojových dat v excelu.
+## 3. PowerBI
+### 3.1 Změna datových typů a nastení formátu hodnot
+1. Změna HDP na 1ob. na formát měny v KČ a také nastaveno nevytváření souhrnu
+2. Změna CDDD na 1ob. na formát měny v KČ a také nastaveno nevytváření souhrnu
+3. Počet obyvatel nastaveno jako celé číslo a také nastaveno nevytváření souhrnu
+4. Přírůstek obyvatel nastaveno jako desetiiné číslo a také nastaveno nevytváření souhrnu
+### 3.2 Vytvoření hierarchie pro NUTS
+Pomocí PowerBI možnosti vytvoření hierarchií byla vytvořena nová hierarchie v posloupnosti NUTS1>NUTS2>NUTS3
+### 3.3 Relační model
+Jako poslední úprava dat byl vytvořen relační model mezi tabulkami.
+![Relační model]()
