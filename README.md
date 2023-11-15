@@ -49,6 +49,6 @@ Na [**webu**](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fww
 - **Čistý disponibilní důchod domácností na 1 obyvatele)** - Čistý disponibilní důchod domácností na 1 obyvatele (Kč, běžné ceny)
 >Tyto textové soubor byly importovány do PowerBI a byla nutná ruční úprava v PowerQUery, ke byl nastaven první řádek jako zálhaví a také byly jednotlivé sloupce transponovány na řádky, abychom vytvořili "dlouhá" a ne "široká" data.
 ### 2.4 Tabulka se sledovanými roky
-Pro lepší práci s daty a byla vytvořena tabulka pro sledované roky v rozmezí od roku 2000 do roku 2021. Tato tabulka byla uloženena jako CSV soubor [Rok]().
+Pro lepší práci s daty a byla vytvořena tabulka pro sledované roky v rozmezí od roku 2000 do roku 2021. Tato tabulka byla uloženena jako CSV soubor [Rok](https://github.com/OndrejZapletal99/Power_BI_engeto_project/blob/main/Rok.csv).
 >Tento textový soubor byl importován do PowerBI a byla nutná ruční úprava v PowerQUery, ke byl nastaven první řádek jako zálhaví a takové změněný datový typ na *text*.
 ## 3. Úprava zdrojových dat v excelu.
