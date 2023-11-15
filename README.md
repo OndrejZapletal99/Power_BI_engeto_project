@@ -3,6 +3,7 @@
 - *Závěrečný projekt Engeto datové analýzy*
 - **PowerBi** a **Excel**
 - *DISCORD*: "ondrej_zapletal"
+- PBIX
 ---
 
 
