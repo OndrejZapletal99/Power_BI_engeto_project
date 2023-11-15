@@ -64,4 +64,4 @@ Pro lepší práci s daty a byla vytvořena tabulka pro sledované roky v rozmez
 Pomocí PowerBI možnosti vytvoření hierarchií byla vytvořena nová hierarchie v posloupnosti NUTS1>NUTS2>NUTS3
 ### 3.3 Relační model
 Jako poslední úprava dat byl vytvořen relační model mezi tabulkami.
-![Relační model]()
+![Relační model](https://github.com/OndrejZapletal99/Power_BI_engeto_project/blob/main/Rela%C4%8Dn%C3%AD_model.png)
