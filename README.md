@@ -3,7 +3,7 @@
 - *Závěrečný projekt Engeto datové analýzy*
 - **PowerBi** a **Excel**
 - *DISCORD*: "ondrej_zapletal"
-- PBIX soubor ke stažení [**zde**]()
+- PBIX soubor ke stažení [**zde**](https://github.com/OndrejZapletal99/Power_BI_engeto_project/blob/main/Power_BI_engeto_project.pbix)
 ---
 
 
@@ -95,14 +95,14 @@ Příklad DAX předpisu:
 Počet obyvatel = SUM(Kraj_obyvatelstvo[Počet _Obyvatel])
 ```
 ## 4. VIzualizace v PowerBi
-### 4.1 Hlavní menu"
+### 4.1 Hlavní menu
 První stránkou PowerBI souboru je "Hlavní Menu", které obsahuje název dashboardu a 3 funkční tlačítka (page navigators). Prvním je tlačítko "Jednoroční srovnání", které uživatele přesměruje na vizuály spojené s jednoročním srovnáním vybraných oblastí. Druhým je tlačítko "Dlouhodobé srovnání", které uživatele přesměruje na vizuály spojené s dlouhodobým srovnáním vybraných oblastí. Třetí je tlačítko odkazující na GITHUB stránku s projektovou dokumentací.
- ![Hlavní menu]()
+ ![Hlavní menu](https://github.com/OndrejZapletal99/Power_BI_engeto_project/blob/main/Hlavn%C3%AD%20menu.png)
  ### 4.2 Jednoroční srovnání
 Druhou stránkou PowerBI souboru "Jednoroční srovnání". Tato stránka slouží k porovnání vybraných ekonomických a demografických ukazatelů mezi dvěmi vybranými oblastmi a celorepublikovým průměrem v daném roce.
 Stránka obsahuje tři vizuály typu (slicer), pomocí, kterých si uživatel volí první a druhou sledovanou oblast a rok, pro který chce jednotlivé ukazatele zobrazit. Dále jsou zde základní vizuály typu karta (card) zobrazující jednotlivé ekonomické a geografické statistiky. Specialitou je vizuál měřidlo (KPI indicator), který zachycuje přirozený přírustek v daném roce pro danou oblast a hodnota 2,1 je cílový ukazetele. HOdnota přirozeného přírůstku 2,1 je obecně známou hodnotou, která je nutná pro dostatečný rozvoj a udržení státu/civilizace. Jako poslední jsou na stránce dvě tlačítka pro pohyb mezi stránkami.
-![Jednoroční srovnání]() 
+![Jednoroční srovnání](https://github.com/OndrejZapletal99/Power_BI_engeto_project/blob/main/Jednoro%C4%8Dn%C3%AD%20srovn%C3%A1n%C3%AD.png) 
 ### 4.2 Dlouhodobé srovnání
 Třetí stránkou PowerBI souboru "Dlouhodobé srovnání". Tato stránka slouží k porovnání vybraných ekonomických ukazatelů mezi dvěmi vybranými oblastmi a také s celorepublikovým průměrem v dlouhodobém horizontu.
 Stránka obsahuje tři vizuály typu (slicer), pomocí, kterých si uživatel volí první a druhou sledovanou oblast a typ ekonomického nebo demografického ukazatele. Nejpodstatnějším nositelem informací jsou na této stránce tři spojnicové grafy vyjadřující vybraný ekonomický ukazatele pro dvě porovnávné oblasti a celorepublikový průměr. Jako poslední jsou na stránce dvě tlačítka pro pohyb mezi stránkami.
-![Dlouhodobé srovnání]() 
+![Dlouhodobé srovnání](https://github.com/OndrejZapletal99/Power_BI_engeto_project/blob/main/Dlouhodob%C3%A9%20srovn%C3%A1n%C3%AD.png) 
